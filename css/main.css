@@ -1,61 +1,54 @@
-
-@media (min-width: 1201px) and (orientation: landscape) {
-  #contenedorImagen {
+#contenedorImagen {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/Landscape.jpg);
     background-size: cover;
+}
+
+#gatito {
+  background-size: cover;
+}
+@media (min-width: 1201px) {
+  #contenedorImagen {
+    
+    background-image: url(../img/Landscape.jpg);
     height: 800px;
-    width: 1400px;
-    position: relative;
+    width: 1700px;
   }
   
 #gatito {
   background-image: url(../img/kitten-medium.png);
-  background-size: cover;
-  height: 55%;
-  width: 50%;
+  height: 49%;
+  width: 38%;
   
 }
 }
 
 @media (max-width: 1200px) and (min-width: 769px) {
   #contenedorImagen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url(../img/dawn.png);
-    background-size: cover;
     height: 600px;
     width: 1200px;
-    position: relative;
   }
   
 #gatito {
   background-image: url(../img/kitten-medium.png);
-  background-size: cover;
   height: 40%;
   width: 33%;
   
-} 
+  } 
 }
+
 
 @media (max-width: 768px) and (min-width: 321px) {
   #contenedorImagen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url(../img/dawn.png);
-    background-size: cover;
     height: 400px;
     width: 768px;
-    position: relative;
   }
   
   #gatito {
     background-image: url(../img/kitten-large.png);
-    background-size: cover;
     height: 21%;
     width: 23%;
   
@@ -64,19 +57,13 @@
 
 @media (max-width: 320px) and (min-width: 0px) {  
   #contenedorImagen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url(../img/maxresdefault.jpg);
-    background-size: cover;
     height: 200px;
     width: 320px;
-    position: relative;
   }
   
   #gatito {
     background-image: url(../img/kitten-small.png);
-    background-size: cover;
     height: 45%;
     width: 30%;
   
